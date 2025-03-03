@@ -1,8 +1,9 @@
 //
-//  SignUpAcceptedView.swift
+//  Task.swift
 //  JustInToDo
 //
-//  Created by Andrew Stewart on 2025-03-02.
+//  Created by Jam Furaque - Group 57
+//  Student Number 101382608
 //
 import SwiftUI
 
@@ -25,8 +26,7 @@ struct SignUpAcceptedView: View {
                 .multilineTextAlignment(.center)
                 .padding()
 
-            Button(action: {
-                // Dismiss this view and the SignUpView to return to the login screen
+            Button(action: {                                                // Dismiss this view and the SignUpView to return to the login screen
                 presentationMode.wrappedValue.dismiss()
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     presentationMode.wrappedValue.dismiss()

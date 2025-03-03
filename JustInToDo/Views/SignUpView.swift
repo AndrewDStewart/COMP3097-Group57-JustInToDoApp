@@ -1,8 +1,9 @@
 //
-//  SignUpView.swift
+//  Task.swift
 //  JustInToDo
 //
-//  Created by Andrew Stewart on 2025-03-02.
+//  Created by Jam Furaque - Group 57
+//  Student Number 101382608
 //
 import SwiftUI
 

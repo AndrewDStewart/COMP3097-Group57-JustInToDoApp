@@ -1,8 +1,9 @@
 //
-//  LoginView.swift
+//  Task.swift
 //  JustInToDo
 //
-//  Created by Andrew Stewart on 2025-03-02.
+//  Created by Jam Furaque - Group 57
+//  Student Number 101382608
 //
 import SwiftUI
 
@@ -21,9 +22,8 @@ struct LoginView: View {
             SecureField("Password", text: $password)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
-            Button("Login") {
-                if userViewModel.login(email: email, password: password) {
-                    // Login successful, navigation will be handled by ContentView
+            Button("Login") {                                                   // This is the button for logging in
+                if userViewModel.login(email: email, password: password) {      // if logged in, cotentView will handle the navigation afterwards
                 } else {
                     showAlert = true
                 }
