@@ -2,7 +2,7 @@
 //  CompletedTaskView.swift
 //  JustInToDo
 //
-//  Created by Andrew Stewart on 2025-03-02.
+//  Created by Kei Ishikawa on 2025-03-02.
 //
 import SwiftUI
 
