@@ -1,8 +1,9 @@
 //
-//  TaskViewModel.swift
+//  Task.swift
 //  JustInToDo
 //
-//  Created by Andrew Stewart on 2025-03-02.
+//  Created by Andrew Stewart - Group 57
+//  Student Number 101418564
 //
 import Foundation
 import Combine
